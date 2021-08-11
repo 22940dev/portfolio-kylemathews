@@ -16,9 +16,9 @@ class Wrapper extends React.Component {
       <div
         css={{
           minHeight: `100vh`,
-          borderTop: `${rhythm(3 / 4)} solid #c5484d`,
+          borderTop: `${rhythm(3 / 4)} solid #A78BFA`,
           "@media (min-width: 420px)": {
-            border: `${rhythm(3 / 4)} solid #c5484d`,
+            border: `${rhythm(3 / 4)} solid #A78BFA`,
           },
         }}
       >
@@ -26,7 +26,7 @@ class Wrapper extends React.Component {
           <div
             css={{
               float: `left`,
-              // color: `#c5484d`,
+              // color: `#A78BFA`,
               marginTop: rhythm(3 / 4),
               marginLeft: rhythm(3 / 4),
               fontSize: scale(2 / 5).fontSize,
@@ -38,7 +38,7 @@ class Wrapper extends React.Component {
           <div
             css={{
               float: `right`,
-              // color: `#c5484d`,
+              // color: `#A78BFA`,
               marginTop: rhythm(3 / 4),
               marginRight: rhythm(3 / 4),
               fontSize: scale(2 / 5).fontSize,
